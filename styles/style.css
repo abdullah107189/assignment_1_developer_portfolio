@@ -18,6 +18,22 @@ body {
     margin: 0 auto;
 }
 
+/* -------------shared class ------------- */
+.sectionTitleBar {
+    width: 852px;
+    margin: 0 auto;
+    text-align: center;
+}
+
+.sectionTitleBar>h1 {
+    font-size: 32px;
+    margin-bottom: 24px;
+}
+
+.sectionTitleBar>p {
+    color: rgb(13, 19, 33);
+}
+
 /* ----------------- header top ------------------ */
 header {
     margin-bottom: 74px;
@@ -100,20 +116,7 @@ main {
     background: rgba(13, 19, 33, 0.02);
 }
 
-.developmentTitleBar {
-    width: 852px;
-    margin: 0 auto;
-    text-align: center;
-}
 
-.developmentTitleBar>h1 {
-    font-size: 32px;
-    margin-bottom: 24px;
-}
-
-.developmentTitleBar>p {
-    color: rgb(13, 19, 33);
-}
 
 .developmentGroup {
     column-gap: 32px;
@@ -158,4 +161,13 @@ main {
     padding: 12px 20px 12px 20px;
     font-size: 20px;
     font-weight: 600;
+}
+
+.main_inspiration_section {
+    margin-bottom: 130px;
+}
+
+.iframeYoutube {
+    border-radius: 16px;
+    margin-top: 48px;
 }
