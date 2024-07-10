@@ -216,12 +216,14 @@ main {
 .targetSkillHtml>a {
     color: rgb(13, 19, 33);
     font-weight: 700;
+    bottom: 0;
 }
 
 .targetSkillCss {
     padding: 40px;
     border-radius: 16px;
     background: rgba(0, 76, 232, 0.05);
+    position: relative;
 }
 
 .targetSkillCss>img {
@@ -241,6 +243,8 @@ main {
 .targetSkillCss>a {
     color: rgb(13, 19, 33);
     font-weight: 700;
+    bottom: 40px;
+    position: absolute;
 }
 
 .targetSkillJs {
