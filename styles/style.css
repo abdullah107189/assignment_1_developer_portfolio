@@ -4,6 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
+    scroll-behavior: smooth;
 }
 
 
@@ -92,13 +93,15 @@ header {
     margin-bottom: 32px;
 }
 
-.subHeaderCover>button {
+.subHeaderCover>a {
     padding: 21px 24px 21px 24px;
     border-radius: 8px;
     color: white;
     font-size: 20px;
     background: rgb(13, 19, 33);
+    text-decoration: none;
 }
+
 
 /* ------------------ main ----------------  */
 main {
