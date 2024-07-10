@@ -62,7 +62,7 @@ header {
 
 /* --------------- header cover ----------------- */
 .headerCover {
-    background-image: url('/assets/Hero-bg.png');
+    background-image: url('../assets/Hero-bg.png');
     height: 652px;
     padding: 35px;
     text-align: center;
